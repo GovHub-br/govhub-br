@@ -26,7 +26,7 @@
     
     
       
-        <title>Como gerar relatórios/Dashboards - GovHubBR</title>
+        <title>Como gerar Dashboards - GovHubBR</title>
       
     
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#como-importar-um-banco-de-dados-de-sistema-estruturante" class="md-skip">
+        <a href="#como-vizualizar-dashbords-usando-apache-superset" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -146,7 +146,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Como gerar relatórios/Dashboards
+              Como gerar Dashboards
             
           </span>
         </div>
@@ -898,7 +898,7 @@
         
   
   <span class="md-ellipsis">
-    Visão Geral - Arquitetura do Projeto
+    Arquitetura do Projeto
     
   </span>
   
@@ -964,7 +964,7 @@
         
   
   <span class="md-ellipsis">
-    Como cruzar/integrar bases de dados
+    Como integrar bases de dados
     
   </span>
   
@@ -993,7 +993,7 @@
           
   
   <span class="md-ellipsis">
-    Como gerar relatórios/Dashboards
+    Como gerar Dashboards
     
   </span>
   
@@ -1005,7 +1005,7 @@
         
   
   <span class="md-ellipsis">
-    Como gerar relatórios/Dashboards
+    Como gerar Dashboards
     
   </span>
   
@@ -1026,11 +1026,89 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#como-importar-um-banco-de-dados-de-sistema-estruturante" class="md-nav__link">
+  <a href="#como-vizualizar-dashbords-usando-apache-superset" class="md-nav__link">
     <span class="md-ellipsis">
-      Como importar um banco de dados de sistema estruturante
+      Como vizualizar dashbords usando apache superset
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guia-de-visualizacao-de-dados-com-apache-superset" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Guia de Visualização de Dados com Apache Superset
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Guia de Visualização de Dados com Apache Superset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-conectando-o-superset-ao-banco-de-dados-postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Conectando o Superset ao banco de dados PostgreSQL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-registrando-um-dataset-tabela" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Registrando um Dataset (Tabela)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-personalizando-as-colunas-opcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Personalizando as colunas (opcional)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-criando-graficos-charts" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Criando gráficos (charts)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-criando-e-organizando-um-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Criando e organizando um Dashboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-gerenciando-acesso-a-dashboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Gerenciando acesso a dashboards
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-customizando-a-visualizacao-do-dashboard-via-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Customizando a visualização do dashboard via URL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1076,7 +1154,7 @@
         
   
   <span class="md-ellipsis">
-    Como implantar/Deploy
+    Como implantar um Deploy
     
   </span>
   
@@ -1119,11 +1197,89 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#como-importar-um-banco-de-dados-de-sistema-estruturante" class="md-nav__link">
+  <a href="#como-vizualizar-dashbords-usando-apache-superset" class="md-nav__link">
     <span class="md-ellipsis">
-      Como importar um banco de dados de sistema estruturante
+      Como vizualizar dashbords usando apache superset
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guia-de-visualizacao-de-dados-com-apache-superset" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Guia de Visualização de Dados com Apache Superset
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Guia de Visualização de Dados com Apache Superset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-conectando-o-superset-ao-banco-de-dados-postgresql" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Conectando o Superset ao banco de dados PostgreSQL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-registrando-um-dataset-tabela" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Registrando um Dataset (Tabela)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-personalizando-as-colunas-opcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Personalizando as colunas (opcional)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-criando-graficos-charts" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Criando gráficos (charts)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-criando-e-organizando-um-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Criando e organizando um Dashboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-gerenciando-acesso-a-dashboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Gerenciando acesso a dashboards
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-customizando-a-visualizacao-do-dashboard-via-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Customizando a visualização do dashboard via URL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1159,9 +1315,140 @@
   
 
 
-  <h1>Como gerar relatórios/Dashboards</h1>
-
-<h2 id="como-importar-um-banco-de-dados-de-sistema-estruturante">Como importar um banco de dados de sistema estruturante<a class="headerlink" href="#como-importar-um-banco-de-dados-de-sistema-estruturante" title="Permanent link">&para;</a></h2>
+<h2 id="como-vizualizar-dashbords-usando-apache-superset">Como vizualizar dashbords usando apache superset<a class="headerlink" href="#como-vizualizar-dashbords-usando-apache-superset" title="Permanent link">&para;</a></h2>
+<h1 id="guia-de-visualizacao-de-dados-com-apache-superset">📊 Guia de Visualização de Dados com Apache Superset<a class="headerlink" href="#guia-de-visualizacao-de-dados-com-apache-superset" title="Permanent link">&para;</a></h1>
+<p>Este guia tem como objetivo orientar o uso do <strong>Apache Superset</strong> para conectar um banco de dados PostgreSQL, registrar datasets e criar dashboards interativos de forma simples.</p>
+<hr />
+<h2 id="1-conectando-o-superset-ao-banco-de-dados-postgresql">1. Conectando o Superset ao banco de dados PostgreSQL<a class="headerlink" href="#1-conectando-o-superset-ao-banco-de-dados-postgresql" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Acesse o Superset no navegador.</li>
+<li>No canto superior direito, clique no botão <strong><code>+</code></strong> e selecione <strong><code>Data</code> → <code>Connect Database</code></strong>.</li>
+<li>Escolha o tipo de banco de dados (<strong>PostgreSQL</strong>).</li>
+<li>Preencha os dados de conexão. Você pode usar a URI SQLAlchemy:</li>
+</ol>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>postgresql://usuario:senha@host:porta/nome_do_banco
+</span></code></pre></div>
+<blockquote>
+<p>💡 Dica: Se estiver usando Docker, o host pode ser <code>host.docker.internal</code>.</p>
+</blockquote>
+<ol>
+<li>Clique em <strong><code>Test Connection</code></strong> para verificar a conexão.</li>
+<li>Se tudo estiver correto, clique em <strong><code>Connect</code></strong> para salvar.</li>
+</ol>
+<hr />
+<h2 id="2-registrando-um-dataset-tabela">2. Registrando um Dataset (Tabela)<a class="headerlink" href="#2-registrando-um-dataset-tabela" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Vá até <strong><code>Data</code> → <code>Datasets</code></strong>.  </li>
+<li>Clique no botão <strong><code>+ Dataset</code></strong> no canto superior direito.  </li>
+<li>
+<p>Na janela que abrir:</p>
+<ul>
+<li>Escolha o banco de dados conectado.</li>
+<li>Selecione o <strong>Schema</strong>.</li>
+<li>Escolha a <strong>Tabela</strong> que deseja analisar.</li>
+</ul>
+</li>
+<li>
+<p>Clique em <strong><code>Add</code></strong> para registrar o dataset.</p>
+</li>
+</ol>
+<hr />
+<h2 id="3-personalizando-as-colunas-opcional">3. Personalizando as colunas (opcional)<a class="headerlink" href="#3-personalizando-as-colunas-opcional" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Após adicionar um dataset, clique nele na lista.</li>
+<li>Clique em <strong><code>Edit Dataset</code></strong> (ícone de lápis).</li>
+<li>
+<p>Para cada coluna, você pode:</p>
+<ul>
+<li>Marcar se é temporal (datas/horários).</li>
+<li>Definir como filtrável.</li>
+<li>Adicionar descrições ou expressões personalizadas.</li>
+<li>Criar <strong>métricas virtuais</strong> (ex: <code>SUM(receita</code>).</li>
+<li>Criar <strong>colunas calculadas</strong> (ex: <code>CAST(valor AS FLOAT)</code>).</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="4-criando-graficos-charts">4. Criando gráficos (charts)<a class="headerlink" href="#4-criando-graficos-charts" title="Permanent link">&para;</a></h2>
+<ol>
+<li>No menu <strong>Datasets</strong>, clique no nome do dataset que deseja visualizar.  </li>
+<li>Isso abrirá o modo <strong>Explore</strong>, onde você pode criar gráficos com interface no-code.  </li>
+<li>
+<p>Na tela de Explore:</p>
+<ul>
+<li>Selecione o tipo de visualização (ex: Bar Chart, Time Series, Pie, etc).</li>
+<li>Defina a métrica (ex: soma de vendas).</li>
+<li>Escolha dimensões e filtros (ex: por região, por produto).</li>
+</ul>
+</li>
+<li>
+<p>Clique em <strong><code>Run</code></strong> para visualizar o gráfico.  </p>
+</li>
+<li>
+<p>Quando estiver satisfeito, clique em <strong><code>Save</code></strong>:</p>
+<ul>
+<li>Dê um nome ao gráfico.</li>
+<li>Escolha adicionar a um dashboard existente ou criar um novo.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="5-criando-e-organizando-um-dashboard">5. Criando e organizando um Dashboard<a class="headerlink" href="#5-criando-e-organizando-um-dashboard" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Após salvar o gráfico, selecione <strong><code>Save and go to Dashboard</code></strong>.  </li>
+<li>No dashboard, clique em <strong><code>Edit Dashboard</code></strong> (canto superior direito).  </li>
+<li>
+<p>Agora é possível:</p>
+<ul>
+<li>Redimensionar os gráficos (arrastar as bordas).</li>
+<li>Mover os gráficos pela grade.</li>
+<li>Adicionar outros charts, markdowns e filtros.</li>
+</ul>
+</li>
+<li>
+<p>Clique em <strong><code>Save</code></strong> para salvar o layout do dashboard.</p>
+</li>
+</ol>
+<hr />
+<h2 id="6-gerenciando-acesso-a-dashboards">6. Gerenciando acesso a dashboards<a class="headerlink" href="#6-gerenciando-acesso-a-dashboards" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Proprietários</strong>: têm permissão para editar.</li>
+<li><strong>Usuários não-proprietários</strong>: acesso pode ser gerenciado de duas formas:</li>
+<li><strong>Permissões por dataset</strong>: se o usuário tiver acesso ao dataset, também pode ver os dashboards que o usam.</li>
+<li><strong>Dashboard Roles (RBAC)</strong>: se ativado, você pode definir quem vê o dashboard, independentemente do dataset.</li>
+</ul>
+<hr />
+<h2 id="7-customizando-a-visualizacao-do-dashboard-via-url">7. Customizando a visualização do dashboard via URL<a class="headerlink" href="#7-customizando-a-visualizacao-do-dashboard-via-url" title="Permanent link">&para;</a></h2>
+<p>Você pode adicionar parâmetros à URL para alterar como o dashboard é exibido:</p>
+<table>
+<thead>
+<tr>
+<th>Parâmetro</th>
+<th>Opções</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>standalone</code></td>
+<td>0 (default), 1, 2, 3</td>
+<td>Remove elementos da interface (ex: navegação, título)</td>
+</tr>
+<tr>
+<td><code>show_filters</code></td>
+<td>0, 1 (default)</td>
+<td>Oculta ou exibe a barra de filtros</td>
+</tr>
+<tr>
+<td><code>expand_filters</code></td>
+<td>0, 1</td>
+<td>Controla se a barra de filtros aparece expandida</td>
+</tr>
+</tbody>
+</table>
+<p>Exemplo de URL:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>http://localhost:8088/superset/dashboard/my-dashboard/?standalone<span class="o">=</span><span class="m">1</span><span class="p">&amp;</span><span class="nv">show_filters</span><span class="o">=</span><span class="m">0</span>
+</span></code></pre></div></p>
 
 
 
@@ -1199,7 +1486,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
         
           
-          <a href="../integrar/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Como cruzar/integrar bases de dados">
+          <a href="../integrar/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Como integrar bases de dados">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1209,7 +1496,7 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Como cruzar/integrar bases de dados
+                Como integrar bases de dados
               </div>
             </div>
           </a>
